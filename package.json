@@ -1,0 +1,19 @@
+{
+  "name": "repro-13045",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "preinstall": "npx --yes only-allow pnpm",
+    "preupdate": "npx --yes only-allow pnpm"
+  },
+  "devDependencies": {},
+  "pnpm": {
+    "onlyBuiltDependencies": []
+  },
+  "engines": {
+    "node": ">= 22.16.0",
+    "npm": "please-use-pnpm",
+    "pnpm": ">= 10.12.4",
+    "yarn": "please-use-pnpm"
+  }
+}
